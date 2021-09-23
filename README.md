@@ -1,4 +1,6 @@
 # Flash card game
+Download the project file and run terminal on text editor
+
 Run http://localhost:2000/hello
 
 Enter your name to start the game
