@@ -28,6 +28,8 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
-app.listen(2000, () => {
-    console.log('The application is running on localhost:2000!')
-});
+//Deploy for Heroku set up PORT.
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, ()=> {
+    console.log(`the application is up and running on local host port: ${PORT}`)
+}); 
