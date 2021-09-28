@@ -4,15 +4,23 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noteventryin/Flash-card-game"
+  },
+  "engines": {
+    "node": "14.17.5"
+  },
   "keywords": [],
-  "author": "",
+  "author": "Zhikun Zhou",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.17.1",
-    "pug": "^3.0.1"
+    "pug": "^3.0.2"
   }
 }
