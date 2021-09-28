@@ -1,7 +1,8 @@
 # Flash card game
-Download the project file and run terminal on text editor
 
-Run http://localhost:2000/hello
+Check out this Flash card game on:
+
+https://flash-card-game.herokuapp.com/hello
 
 Enter your name to start the game
  
